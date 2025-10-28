@@ -13,62 +13,49 @@ export default function Navigation() {
           <div className="max-w-[1160px] mx-auto px-4 md:px-0 h-11 md:h-16 flex items-center justify-between">
             {/* Logo */}
             {/* Desktop Navigation */}
-             <nav className="hidden md:flex items-center gap-8">
+             <nav className="hidden md:flex items-center justify-center gap-8 w-full">
               <Link
                 href="/developer"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 DEVELOPER
               </Link>
 
               <Link
                 href="/ecosystem"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 ECOSYSTEM
               </Link>
 
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 RWA
               </Link>
-              <Link
-                href="/developer"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
-              >
-                DEVELOPER
-              </Link>
-
-              <Link
-                href="/ecosystem"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
-              >
-                ECOSYSTEM
-              </Link>
 
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 GITHUB
               </Link>
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 DOCUMENTATION
               </Link>
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 TWITTER
               </Link>
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
               >
                 COMMUNITY
               </Link>
