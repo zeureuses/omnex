@@ -45,6 +45,31 @@ export default function Navigation() {
 
             </nav>
 
+            {/* Desktop Social Icons */}
+            <div className="hidden md:flex items-center gap-3">
+              <a href="https://omnex-layer.gitbook.io/omnex-layer" aria-label="GitBook" target="_blank" rel="noopener noreferrer">
+                <img
+                  className="w-7 h-7 object-contain cursor-pointer hover:opacity-100 rounded-md p-1.5 bg-white/40"
+                  src="https://cdn.simpleicons.org/gitbook/000000"
+                  alt="GitBook"
+                />
+              </a>
+              <a href="https://x.com/OmnexLayer" aria-label="X" target="_blank" rel="noopener noreferrer">
+                <img
+                  className="w-7 h-7 object-contain cursor-pointer hover:opacity-100 rounded-md p-1.5 bg-white/40"
+                  src="https://cdn.simpleicons.org/x/000000"
+                  alt="X"
+                />
+              </a>
+              <a href="https://t.me/OmnexLayer" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+                <img
+                  className="w-7 h-7 object-contain cursor-pointer hover:opacity-100 rounded-md p-1.5 bg-white/40"
+                  src="https://cdn.simpleicons.org/telegram/000000"
+                  alt="Telegram"
+                />
+              </a>
+            </div>
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -110,6 +135,31 @@ export default function Navigation() {
               >
                 RWA
               </Link>
+
+              {/* Social Icons (Mobile) */}
+              <div className="flex gap-3 items-center pt-2">
+                <a href="https://omnex-layer.gitbook.io/omnex-layer" aria-label="GitBook" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="w-8 h-8 object-contain rounded-md p-1.5 bg-black/5 hover:opacity-100"
+                    src="https://cdn.simpleicons.org/gitbook/000000"
+                    alt="GitBook"
+                  />
+                </a>
+                <a href="https://x.com/OmnexLayer" aria-label="X" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="w-8 h-8 object-contain rounded-md p-1.5 bg-black/5 hover:opacity-100"
+                    src="https://cdn.simpleicons.org/x/000000"
+                    alt="X"
+                  />
+                </a>
+                <a href="https://t.me/OmnexLayer" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="w-8 h-8 object-contain rounded-md p-1.5 bg-black/5 hover:opacity-100"
+                    src="https://cdn.simpleicons.org/telegram/000000"
+                    alt="Telegram"
+                  />
+                </a>
+              </div>
             </nav>
           </div>
         )}

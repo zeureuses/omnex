@@ -211,7 +211,7 @@ export default function DAppsPage() {
 
         {/* DApps Grid */}
         <div className="mb-12 md:mb-24">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 blur-sm md:blur pointer-events-none select-none">
             {filteredDapps.map((dapp) => (
               <a
                 key={dapp.id}
@@ -221,16 +221,16 @@ export default function DAppsPage() {
                 className="group relative rounded-xl p-0.5 flex items-center justify-center cursor-pointer
                   before:content-[''] before:absolute before:top-px before:left-px 
                   before:w-[calc(100%-2px)] before:h-[calc(100%-2px)] before:bg-[#D8D8D8] 
-                  before:rounded-[11px] before:z-[1]
+                  before:rounded-[11px] before:z-1
                   hover:before:left-0 hover:before:top-0 hover:before:w-full hover:before:h-full 
-                  hover:before:bg-gradient-to-br hover:before:from-[#326CFF] hover:before:to-[#6EFFFF]"
+                  hover:before:bg-linear-to-br hover:before:from-[#326CFF] hover:before:to-[#6EFFFF]"
               >
-                <div className="rounded-[10px] w-full bg-white p-6 md:p-8 min-h-[240px] md:min-h-[260px] relative z-[2] 
+                <div className="rounded-[10px] w-full bg-white p-6 md:p-8 min-h-[240px] md:min-h-[260px] relative z-2 
                   shadow-sm group-hover:bg-[#F8FDFF] transition-colors flex flex-col">
                   {/* Header */}
                   <div className="flex items-center gap-3 md:gap-4 mb-4">
                     <img
-                      className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover flex-shrink-0"
+                      className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover shrink-0"
                       alt={dapp.name}
                       src={dapp.image}
                     />
@@ -251,7 +251,7 @@ export default function DAppsPage() {
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-[#7C7E7A] line-clamp-2 mb-4 md:mb-6 flex-grow">
+                  <p className="text-sm text-[#7C7E7A] line-clamp-2 mb-4 md:mb-6 grow">
                     {dapp.description}
                   </p>
 
