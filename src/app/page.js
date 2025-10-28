@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="font-sans items-center justify-items-center min-h-screen bg-white overflow-x-hidden">
       <main className="flex flex-col items-center sm:items-start">
-        <section className="w-full flex items-center justify-center bg-[url('https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/bHuJSbVv7CUAAAAATUAAAAgADlxJAQFr/original')] md:bg-[url('/new.png')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
+        <section className="w-full flex items-center justify-center bg-[url('/new-mobile.png')] md:bg-[url('/new.png')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
           <div className="w-full md:w-[1160px] flex flex-col items-stretch gap-4">
             <h1 className="text-[#1D1E1E] text-2xl md:text-[48px] font-semibold flex flex-col items-center md:items-start">
               <span className="text-center md:text-left">
@@ -29,12 +29,12 @@ export default function Home() {
               </Link>
 
               <Link
-                href="https://omnex-layer.gitbook.io/omnex-layer"
+                href="https://github.com/Omnex-Layer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border py-2 px-4 border-[#326cff] text-[#326cff] rounded-full text-xs md:text-base flex items-center justify-center"
               >
-                Institutional solutions
+                Explore Github
               </Link>
             </div>
           </div>
@@ -376,17 +376,11 @@ Omnex Layer is specifically optimized for real-world assets, applications, and u
               Omnex delivers a powerful and intuitive Layer 2 scaling solution that tackles blockchain’s scalability bottlenecks using advanced innovations, maintaining seamless compatibility.
             </p>
 
-            {/* Mobile image */}
-            <img
-              className="w-full h-auto mt-4 md:hidden"
-              src="https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/l2JuR5DUP8cAAAAAejAAAAgADlxJAQFr/original"
-              alt="Layer2 Architecture Overview"
-            />
 
             {/* Desktop image */}
             <img
-              className="w-full h-auto mt-4 hidden md:block"
-              src="https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/2zN2QomSBIQAAAAAgCAAAAgADlxJAQFr/original"
+              className="w-full h-auto mt-4"
+              src="/images/info.png"
               alt="Layer2 Architecture Overview"
             />
           </div>

@@ -66,25 +66,58 @@ export default function Footer() {
                 </a>
               </div>
 
-              {/* Navigation Links */}
-              <div className="flex flex-wrap gap-4 justify-center">
+              {/* Navigation - headers and sublinks */}
+              <div className="w-full flex flex-row justify-between gap-8 md:gap-16 py-6">
+                {/* Developer */}
                 <Link
-                  className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
-                  href="/developer"
+                  href="https://omnex-layer.gitbook.io/omnex-layer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-start gap-2 min-w-[120px]"
                 >
-                  Developer
+                  <span className="font-semibold text-white text-base mb-1">
+                    Developer
+                  </span>
+                  <span className="text-white/70 text-sm hover:text-[#6effff] transition">
+                    Docs
+                  </span>
+                  <span
+                    className="text-white/70 text-sm hover:text-[#6effff] transition"
+                    onClick={e => {
+                      e.preventDefault();
+                      window.open('https://github.com/Omnex-Layer', '_blank', 'noopener,noreferrer');
+                    }}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    Github
+                  </span>
                 </Link>
+                {/* Ecosystem */}
                 <Link
-                  className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
                   href="/ecosystem"
+                  className="flex flex-col items-start gap-2 min-w-[120px]"
                 >
-                  Ecosystem
+                  <span className="font-semibold text-white text-base mb-1">
+                    Ecosystem
+                  </span>
+                  <span className="text-white/70 text-sm hover:text-[#6effff] transition">
+                    Featured Projects
+                  </span>
+                  <span className="text-white/70 text-sm hover:text-[#6effff] transition">
+                    Web3 Partners
+                  </span>
                 </Link>
+                {/* RWA */}
                 <Link
-                  className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
                   href="/rwa"
+                  className="flex flex-col items-start gap-2 min-w-[120px]"
                 >
-                  RWA
+                  <span className="font-semibold text-white text-base mb-1">
+                    RWA
+                  </span>
+                  <span className="text-white/70 text-sm hover:text-[#6effff] transition">
+                    RWA Solution
+                  </span>
                 </Link>
               </div>
 
@@ -205,26 +238,81 @@ export default function Footer() {
                 </div>
 
                 <div className="flex-1 flex justify-end gap-8">
-                  <Link
-                    className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
-                    href="/developer"
-                  >
-                    Developer
-                  </Link>
+                  <div className="flex gap-12">
+                    
+ 
+                    <div>
+                      <div className="font-bold text-white mb-2">Quantum Tools</div>
+                      <div className="flex flex-col gap-1">
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/quantum-dashboard"
+                        >
+                          Dashboard
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/quantum-analytics"
+                        >
+                          Analytics
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/quantum-api"
+                        >
+                          API Access
+                        </Link>
+                      </div>
+                    </div>
 
-                  <Link
-                    className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
-                    href="/ecosystem"
-                  >
-                    Ecosystem
-                  </Link>
+                    <div>
+                      <div className="font-bold text-white mb-2">Starship Center</div>
+                      <div className="flex flex-col gap-1">
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/starship-launches"
+                        >
+                          Launches
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/starship-crew"
+                        >
+                          Crew
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/starship-gallery"
+                        >
+                          Gallery
+                        </Link>
+                      </div>
+                    </div>
 
-                  <Link
-                    className="font-semibold text-white hover:opacity-100 hover:bg-gradient-to-r hover:from-[#326CFF] hover:to-[#8B5CF6] hover:bg-clip-text hover:text-transparent transition-all"
-                    href="/rwa"
-                  >
-                    RWA
-                  </Link>
+                    <div>
+                      <div className="font-bold text-white mb-2">Pixel Forge</div>
+                      <div className="flex flex-col gap-1">
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/pixel-generator"
+                        >
+                          Generator
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/pixel-market"
+                        >
+                          Marketplace
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="/pixel-tutorials"
+                        >
+                          Tutorials
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
               </div>
