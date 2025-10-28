@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="font-sans items-center justify-items-center min-h-screen bg-white overflow-x-hidden">
       <main className="flex flex-col items-center sm:items-start">
-        <section className="w-full flex items-center justify-center bg-[url('https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/bHuJSbVv7CUAAAAATUAAAAgADlxJAQFr/original')] md:bg-[url('https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/S1_HQ5bs5MUAAAAAeLAAAAgADlxJAQFr/original')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
+        <section className="w-full flex items-center justify-center bg-[url('https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/bHuJSbVv7CUAAAAATUAAAAgADlxJAQFr/original')] md:bg-[url('/new.png')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
           <div className="w-full md:w-[1160px] flex flex-col items-stretch gap-4">
             <h1 className="text-[#1D1E1E] text-2xl md:text-[48px] font-semibold flex flex-col items-center md:items-start">
               <span className="text-center md:text-left">
