@@ -13,49 +13,58 @@ export default function Navigation() {
           <div className="max-w-[1160px] mx-auto px-4 md:px-0 h-11 md:h-16 flex items-center justify-between">
             {/* Logo */}
             {/* Desktop Navigation */}
-             <nav className="hidden md:flex items-center justify-center gap-8 w-full">
+            <nav className="hidden md:flex items-center justify-center w-full">
               <Link
                 href="/developer"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 DEVELOPER
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
 
               <Link
                 href="/ecosystem"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 ECOSYSTEM
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
 
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 RWA
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
 
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 GITHUB
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
+              
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 DOCUMENTATION
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
+
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 TWITTER
               </Link>
+              <span className="mx-3 h-5 border-l border-[#326CFF] inline-block"></span>
+              
               <Link
                 href="/rwa"
-                className="font-medium text-base text-[#326CFF] px-3 py-1 border border-[#326CFF] rounded-full bg-white transition-colors hover:text-white hover:bg-[#326CFF]"
+                className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
               >
                 COMMUNITY
               </Link>
