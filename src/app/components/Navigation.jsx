@@ -12,28 +12,20 @@ export default function Navigation() {
         <div className="bg-white/31 backdrop-blur-sm">
           <div className="max-w-[1160px] mx-auto px-4 md:px-0 h-11 md:h-16 flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="shrink-0">
-              <img
-                src="https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/AL7HQ6tCvAoAAAAAQMAAAAgADlxJAQFr/original"
-                alt="logo"
-                className="h-4 md:h-7 w-auto"
-              />
-            </Link>
-
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-8">
+             <nav className="hidden md:flex items-center gap-8">
               <Link
                 href="/developer"
                 className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
               >
-                Developer
+                DEVELOPER
               </Link>
 
               <Link
                 href="/ecosystem"
                 className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
               >
-                Ecosystem
+                ECOSYSTEM
               </Link>
 
               <Link
@@ -42,10 +34,97 @@ export default function Navigation() {
               >
                 RWA
               </Link>
+              <Link
+                href="/developer"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                DEVELOPER
+              </Link>
+
+              <Link
+                href="/ecosystem"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                ECOSYSTEM
+              </Link>
+
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                GITHUB
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                DOCUMENTATION
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                TWITTER
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                COMMUNITY
+              </Link>
             </nav>
 
+            {/* <Link href="/" className="shrink-0">
+              <img
+                src="/new-new-new-logo.png"
+                alt="logo"
+                className="h-4 md:h-7 w-auto"
+              />
+            </Link> */}
+
+             {/* <nav className="hidden md:flex items-center gap-8">
+              <Link
+                href="/developer"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                DEVELOPER
+              </Link>
+
+              <Link
+                href="/ecosystem"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                ECOSYSTEM
+              </Link>
+
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                GITHUB
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                DOCUMENTATION
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                TWITTER
+              </Link>
+              <Link
+                href="/rwa"
+                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
+              >
+                COMMUNITY
+              </Link>
+            </nav> */}
+
             {/* Desktop Social Icons */}
-            <div className="hidden md:flex items-center gap-3">
+            {/* <div className="hidden md:flex items-center gap-3">
               <a
                 href="https://github.com/Omnex-Layer"
                 target="_blank"
@@ -93,7 +172,7 @@ export default function Navigation() {
                   alt="Telegram"
                 />
               </a>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <button

@@ -102,30 +102,20 @@ export default function AssetsTokenizationPage() {
               <span>Revolutionize Your Assets.</span>
             </h1>
             <div className="text-[#1D1E1E] text-sm md:text-base text-center max-w-[90%] md:max-w-none">
-              Join asset owners and investors worldwide leveraging Omnex secure and scalable tokenization platform.
+              Assets owners and investors worldwide leveraging Omnex secure and scalable tokenization platform.
             </div>
             
             {/* Book Demo Button */}
             <div className="mt-4 flex justify-center">
-              {/* <Link
-                href="/institutions-retention"
+              <Link
+                href="https://github.com/Omnex-Layer"
                 className="bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full px-8 py-3 text-sm md:text-base flex items-center gap-2 hover:opacity-90 transition-opacity font-medium"
               >
-                Book a demo
+                Explore Github
                 <svg viewBox="64 64 896 896" width="1em" height="1em" fill="currentColor">
                   <path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 000-48.4z" />
                 </svg>
-              </Link> */}
-
-              <div
-                className="bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full px-8 py-3 text-sm md:text-base flex items-center gap-2 hover:opacity-90 transition-opacity font-medium"
-              >
-                Book a demo
-                <svg viewBox="64 64 896 896" width="1em" height="1em" fill="currentColor">
-                  <path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 000-48.4z" />
-                </svg>
-              </div>
-
+              </Link>
             </div>
           </div>
         </div>

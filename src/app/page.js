@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="font-sans items-center justify-items-center min-h-screen bg-white overflow-x-hidden">
       <main className="flex flex-col items-center sm:items-start">
-        <section className="w-full flex items-center justify-center bg-[url('/new-mobile.png')] md:bg-[url('/new.png')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
+        <section className="w-full flex items-center justify-center bg-[url('/new_webp-mobile.png')] md:bg-[url('/new_webp.webp')] bg-cover bg-center bg-no-repeat p-[84px_24px_40px] md:p-[210px_100px_150px]">
           <div className="w-full md:w-[1160px] flex flex-col items-stretch gap-4">
             <h1 className="text-[#1D1E1E] text-2xl md:text-[48px] font-semibold flex flex-col items-center md:items-start">
               <span className="text-center md:text-left">
@@ -256,23 +256,16 @@ Omnex Layer is specifically optimized for real-world assets, applications, and u
                 Real-time metrics for the Omnex Layer2 mainnet, including throughput, gas costs, locked assets, and transaction volume.
               </div>
               <div className="my-4 py-1 px-1 bg-gradient-to-r from-[#326cff] to-[#6effff] rounded-full">
-                {/* <Link
-                  href=""
+                <Link
+                  href="https://github.com/Omnex-Layer/omnex-dapp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-white rounded-full px-3 md:px-6 py-[15px] h-8 md:h-[52px] text-xs md:text-base relative"
                 >
                   <span className="relative z-10 text-black">
-                    View in Block Explorer
+                    dAPP (under construction)
                   </span>
-                </Link> */}
-                <div
-                  className="inline-flex items-center justify-center bg-white rounded-full px-3 md:px-6 py-[15px] h-8 md:h-[52px] text-xs md:text-base relative"
-                >
-                  <span className="relative z-10 text-black">
-                    View in Block Explorer
-                  </span>
-                </div>
+                </Link>
               </div>
             </div>
 

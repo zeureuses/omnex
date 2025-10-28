@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Omnex is a cutting-edge Layer 2",
+  title: "Omnex Layer",
   description: "Omnex is a cutting-edge Layer 2 that delivers superior performance in throughput and latency while addressing critical security challenges.",
 };
 

@@ -11,11 +11,7 @@ export default function Footer() {
             <div className="flex flex-col gap-6">
               {/* Logo and Description */}
               <div className="flex flex-col gap-4">
-                <img
-                  src="https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/AL7HQ6tCvAoAAAAAQMAAAAgADlxJAQFr/original"
-                  alt="Omnex"
-                  className="w-[80px] h-auto"
-                />
+                <h1 className='text-blue-500 text-3xl'>Omnex Layer</h1>
                 <div className="text-sm opacity-50 leading-relaxed">
                   Enabling global RWA tokenization via a secure and interoperable Layer 2 framework uniting Web2 and Web3.
                 </div>
@@ -184,11 +180,7 @@ export default function Footer() {
             <div className="w-[1160px] flex flex-col gap-8">
               <div className="flex flex-wrap items-start justify-between gap-16 lg:gap-24 xl:gap-32">
                 <div className="flex flex-col gap-4">
-                  <img
-                    src="https://mdn.alipayobjects.com/huamei_rqgebe/afts/img/AL7HQ6tCvAoAAAAAQMAAAAgADlxJAQFr/original"
-                    alt="Omnex"
-                    className="w-[100px] h-auto"
-                  />
+                  <h1 className='text-blue-500 text-3xl'>Omnex Layer</h1>
                   <div className="w-[300px] text-base opacity-50">
                     Enabling global RWA tokenization via a secure and interoperable Layer 2 framework uniting Web2 and Web3.
                   </div>
@@ -242,73 +234,91 @@ export default function Footer() {
                     
  
                     <div>
-                      <div className="font-bold text-white mb-2">Quantum Tools</div>
+                      <div className="font-bold text-white mb-2">User Guide</div>
                       <div className="flex flex-col gap-1">
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/quantum-dashboard"
+                          href="https://omnex-layer.gitbook.io/omnex-layer/guides/developer-guide"
                         >
-                          Dashboard
+                          Developer Guide
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/quantum-analytics"
+                          href="https://omnex-layer.gitbook.io/omnex-layer/guides/developer-quickstart"
                         >
-                          Analytics
+                          Developer Quickstart
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/quantum-api"
+                          href="https://omnex-layer.gitbook.io/omnex-layer/guides/omnex-bridge-dapp-guide"
                         >
-                          API Access
+                          Omnex Bridge DApp Guide
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="https://omnex-layer.gitbook.io/omnex-layer/guides/omnex-explorer"
+                        >
+                          Omnex Explorer
                         </Link>
                       </div>
                     </div>
 
                     <div>
-                      <div className="font-bold text-white mb-2">Starship Center</div>
+                      <div className="font-bold text-white mb-2">Socials</div>
                       <div className="flex flex-col gap-1">
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/starship-launches"
+                          href="https://x.com/OmnexLayer"
                         >
-                          Launches
+                          X (Twitter)
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/starship-crew"
+                          href="https://t.me/OmnexLayerAnn"
                         >
-                          Crew
+                          Announcements
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/starship-gallery"
+                          href="https://t.me/OmnexLayer"
                         >
-                          Gallery
+                          Telegram Portal
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="https://omnex-layer.gitbook.io/omnex-layer"
+                        >
+                          Documents
+                        </Link>
+                        <Link
+                          className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
+                          href="https://github.com/Omnex-Layer"
+                        >
+                          Github
                         </Link>
                       </div>
                     </div>
 
                     <div>
-                      <div className="font-bold text-white mb-2">Pixel Forge</div>
+                      <div className="font-bold text-white mb-2">Website</div>
                       <div className="flex flex-col gap-1">
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/pixel-generator"
+                          href="/developer"
                         >
-                          Generator
+                          Developer
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/pixel-market"
+                          href="/ecosystem"
                         >
-                          Marketplace
+                          Ecosystem
                         </Link>
                         <Link
                           className="font-medium text-base text-[rgba(255,255,255,0.80)] hover:text-[#326CFF] transition-colors"
-                          href="/pixel-tutorials"
+                          href="/rwa"
                         >
-                          Tutorials
+                          RWA
                         </Link>
                       </div>
                     </div>
