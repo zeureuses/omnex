@@ -13,7 +13,7 @@ export default function Navigation() {
           <div className="max-w-[1160px] mx-auto px-4 md:px-0 h-11 md:h-16 flex items-center justify-between">
             {/* Logo */}
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center justify-center w-full">
+            {/* <nav className="hidden md:flex items-center justify-center w-full">
               <Link
                 href="/developer"
                 className="font-medium text-base text-black transition-colors hover:text-[#326CFF]"
@@ -68,17 +68,9 @@ export default function Navigation() {
               >
                 COMMUNITY
               </Link>
-            </nav>
+            </nav> */}
 
-            {/* <Link href="/" className="shrink-0">
-              <img
-                src="/new-new-new-logo.png"
-                alt="logo"
-                className="h-4 md:h-7 w-auto"
-              />
-            </Link> */}
-
-             {/* <nav className="hidden md:flex items-center gap-8">
+             <nav className="hidden md:flex items-center gap-8">
               <Link
                 href="/developer"
                 className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
@@ -97,30 +89,12 @@ export default function Navigation() {
                 href="/rwa"
                 className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
               >
-                GITHUB
+                RWA
               </Link>
-              <Link
-                href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
-              >
-                DOCUMENTATION
-              </Link>
-              <Link
-                href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
-              >
-                TWITTER
-              </Link>
-              <Link
-                href="/rwa"
-                className="font-medium text-base text-[rgba(0,4,12,0.80)] hover:text-[#326CFF] transition-colors"
-              >
-                COMMUNITY
-              </Link>
-            </nav> */}
+            </nav>
 
             {/* Desktop Social Icons */}
-            {/* <div className="hidden md:flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-3">
               <a
                 href="https://github.com/Omnex-Layer"
                 target="_blank"
@@ -168,7 +142,7 @@ export default function Navigation() {
                   alt="Telegram"
                 />
               </a>
-            </div> */}
+            </div>
 
             {/* Mobile Menu Button */}
             <button

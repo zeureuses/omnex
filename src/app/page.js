@@ -255,18 +255,6 @@ Omnex Layer is specifically optimized for real-world assets, applications, and u
               <div className="text-[#666F8D] text-sm md:text-lg text-center md:text-left">
                 Real-time metrics for the Omnex Layer2 mainnet, including throughput, gas costs, locked assets, and transaction volume.
               </div>
-              <div className="my-4 py-1 px-1 bg-gradient-to-r from-[#326cff] to-[#6effff] rounded-full">
-                <Link
-                  href="https://github.com/Omnex-Layer/omnex-dapp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-white rounded-full px-3 md:px-6 py-[15px] h-8 md:h-[52px] text-xs md:text-base relative"
-                >
-                  <span className="relative z-10 text-black">
-                    dAPP (under construction)
-                  </span>
-                </Link>
-              </div>
             </div>
 
             <div className="w-[85%] md:w-[70%] flex flex-wrap items-center gap-y-6 md:gap-y-20">
